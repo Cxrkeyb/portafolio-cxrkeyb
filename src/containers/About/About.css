@@ -1,0 +1,22 @@
+.aboutContainer{
+    background-color: #9759CC;
+    width: 100%;
+    height: 800px;
+    gap: 28px;
+    color: white;
+}
+.aboutTitle{
+    font-weight: 600;
+    font-size: 42px;
+}
+.aboutDescription{
+    font-weight: 400;
+    font-size: 30px;
+    width: 1200px;
+}
+.aboutList{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}

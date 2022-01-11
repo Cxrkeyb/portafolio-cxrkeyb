@@ -1,0 +1,12 @@
+.navbarContainer{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    background-color: #5C377D33;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.navbarContainer h2{
+    padding: 20px;
+}

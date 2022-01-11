@@ -1,0 +1,29 @@
+.headerContainer{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 40px;
+}   
+.flexedContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verticalflex{
+    flex-direction: column;
+}
+.avatar{
+    height: 500px;
+}
+.titleIntroduction{
+    font-weight: 700;
+    font-size: 50px;
+    width: 500px;
+}
+.textIntroduction{
+    font-weight: 500;
+    font-size: 30px;
+    width: 500px;
+}
