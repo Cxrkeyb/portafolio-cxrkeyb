@@ -1,6 +1,12 @@
+@media (max-width:1250px) {
+    .navbarContainer{
+        visibility: hidden;
+        position: absolute;
+    }
+}
 .navbarContainer{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 40px;
     background-color: #5C377D33;
     position: relative;

@@ -9,7 +9,7 @@ export default function Header() {
         <Fragment>
             <div className='headerContainer'>
                 <div className='flexedContainer'>
-                    <img className='avatar' src={avatar}/>
+                    <img className='avatar' src={avatar} alt='avatar of cxrkeyb'/>
                 </div>
                 <div className='flexedContainer verticalflex'>
                     <span className='titleIntroduction'>Front end developer </span>

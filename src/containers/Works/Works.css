@@ -11,14 +11,14 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        flex-direction: column;
     }
 }
-.worksContainer{
-    display: grid;
-    
-    padding: 0px 200px;
-    
-}
-.collabContainer{
-    padding: 0px 200px 100px 200px;
+@media (min-width: 1250px) {
+    .worksContainer{
+        padding: 0px 200px;
+    }
+    .collabContainer{
+        padding: 0px 200px 100px 200px;
+    }
 }
