@@ -8,7 +8,7 @@ export default function Works() {
     return (
         <Fragment>
            <TitleFlexed title="My Projects" />
-            <div className='worksContainer'>
+            <div className='worksContainer' id='projectsContent'>
                 {projectsdb.map((project) => <Projects key={project.title} project={project}/>)}
             </div>
             <TitleFlexed title="Collab Work" />

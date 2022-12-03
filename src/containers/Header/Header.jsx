@@ -7,7 +7,7 @@ import './Header.css'
 export default function Header() {
     return (
         <Fragment>
-            <div className='headerContainer'>
+            <div id='headerContent' className='headerContainer'>
                 <div className='flexedContainer'>
                     <img className='avatar' src={avatar} alt='avatar of cxrkeyb'/>
                 </div>

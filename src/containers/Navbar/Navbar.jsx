@@ -4,10 +4,10 @@ import './Navbar.css'
 export default function Navbar() {
     return (
         <div className='navbarContainer'>
-            <h2>Home</h2>
-            <h2>About</h2>
-            <h2>Work</h2>
-            <h2>Contact</h2>
+            <a href='#headerContent'>Home</a>
+            <a href='#aboutContent'>About</a>
+            <a href='#projectsContent'>Projects</a>
+            <a href='https://www.linkedin.com/in/wilsonparada/'>Contact</a>
         </div>
     )
 }
