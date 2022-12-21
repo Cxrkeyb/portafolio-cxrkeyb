@@ -3,7 +3,7 @@ import './Projects.css'
 
 export default function Projects({project}) {
     return (
-        <a className='projectContainer flexedContainer verticalflex' href={project.url} target="_blank">
+        <a className='projectContainer flexedContainer verticalflex' href={project.url} target="_blank" rel='noreferrer'>
             <div className='flexedContainer '>
                 <img className='projectImage' src={project.img} alt={`${project.title}`}/>
             </div>
