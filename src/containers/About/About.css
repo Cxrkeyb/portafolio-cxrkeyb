@@ -1,48 +1,78 @@
 @media (max-width: 1249px) {
-    .aboutDescription, .aboutList{
+
+    .aboutDescription,
+    .aboutList {
         width: 300px;
     }
-    .aboutContainer{
+
+    .aboutContainer {
         text-align: center;
     }
-    .aboutTitle{
+
+    .aboutTitle {
         font-size: 30px;
     }
-    .aboutDescription{
+
+    .aboutDescription {
         font-size: 20px;
     }
-    .aboutList{
+
+    .aboutList {
         font-size: 15px;
     }
 }
+
 @media (min-width: 1250px) {
-    .aboutDescription, .aboutList{
+
+    .aboutDescription,
+    .aboutList {
         width: 1200px;
     }
-    .aboutTitle{
+
+    .aboutTitle {
         font-size: 42px;
     }
-    .aboutDescription{
+
+    .aboutDescription {
         font-size: 30px;
     }
-    .aboutList{
+
+    .aboutList {
         font-size: 25px;
     }
 }
-.aboutContainer{
+
+.aboutContainer {
     background-color: #9759CC;
     width: 100%;
     height: 800px;
     gap: 28px;
     color: white;
 }
-.aboutTitle{
+
+.aboutTitle {
     font-weight: 600;
 }
-.aboutDescription{
+
+.aboutDescription {
     font-weight: 400;
 }
-.aboutList{
+
+.aboutList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.aboutAbilities {
+    background-color: #ffffff;
+    color: #9759CC;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
